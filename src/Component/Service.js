@@ -25,7 +25,7 @@ class Service extends Component {
                             <h2>Technologies</h2>
                         </div>
                     </div>
-                    <div className="row">
+                    <div className="row techPhotos">
                         <div className="col-md-4 col-sm-6 grid col-12">
                             <div className="hx-service-item">
                                 <div className="hx-service-single">

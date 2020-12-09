@@ -12,18 +12,18 @@ class Contact extends Component {
                         <div className="col-lg-5 col-md-5 col-sm-5">
                             <div className="contact-page-item">
                                 <h2>Contact</h2>
-                                <p>If you wish to contact me you can find me on linkedin or you can email me directly. Thank you for your time!</p>
+                                <p>If you wish to contact me you can find me on linkedin <a href="https://www.linkedin.com/in/lukezvada/">here</a> or you can call or email me directly. Thank you for your time!</p>
                                 {/* <div className="adress">
                                     <h3>Address</h3>
                                     <span>245 King Street, Touterie Victoria 8520 Australia</span>
                                 </div> */}
                                 <div className="phone">
                                     <h3>Phone</h3>
-                                    <span>330.819.5309</span>
+                                    <a href="tel:3308195309">330.819.5309</a>
                                 </div>
                                 <div className="email">
                                     <h3>Email</h3>
-                                    <span>lukepzvada@gmail.com</span>
+                                    <a href="mailto:lukepzvada@gmail.com">lukepzvada@gmail.com</a>
                                 </div>
                             </div>
                         </div>

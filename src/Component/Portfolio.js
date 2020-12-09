@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faPlus } from '@fortawesome/free-solid-svg-icons';
+import { faCode, faCodeBranch, faExternalLinkAlt, faPlus } from '@fortawesome/free-solid-svg-icons';
 import { fab, faFacebook, faFacebookF } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Gallery_1 from '../Assets/Images/gallery/img-1.jpg';
@@ -92,10 +92,10 @@ class Porfolio extends Component {
                                     <h2>Work I Have Done</h2>
                                 </div>
                                 <ul>
-                                    <li><a data-filter="*" href="#" className="current" onClick={allElement}>All</a></li>
-                                    <li><a data-filter=".Web-Design" href="#" onClick={webDesign}>Web Design</a></li>
+                                    {/* <li><a data-filter="*" href="#" className="current" onClick={allElement}>All</a></li> */}
+                                    {/* <li><a data-filter=".Web-Design" href="#" onClick={webDesign}>Web Design</a></li> */}
                                     {/* <li><a data-filter=".Print-Design" href="#" onClick={printDesign}>Print Design</a></li> */}
-                                    <li><a data-filter=".Web-Application" href="#" onClick={webApp}>Web Application</a></li>               
+                                    {/* <li><a data-filter=".Web-Application" href="#" onClick={webApp}>Web Application</a></li>                */}
                                     {/* <li><a data-filter=".Photography" href="#" onClick={Photography}>Photography</a></li>  */}
                                 </ul>
                             </div>
@@ -112,18 +112,10 @@ class Porfolio extends Component {
                                         </a>
                                     </div>
                                 </div> */}
-                                <div className={this.state.onWebDesign ? "grid active" : "grid" 
-                                    && this.state.onPrintDesign ? "grid active" : "grid"
-                                    && this.state.onWebApp ? "grid active" : "grid"
-                                    && this.state.onPhotography ? "grid active" : "grid"
-                                    && this.state.isOpen ? "grid" : "grid open"}>
-                                        
-                                    <img src={Gallery_2} alt="" className="img img-responsive"/>
-                                    <div className="icon">
-                                        <a href="#" className="view-icon">
-                                            <FontAwesomeIcon icon={faPlus} />
-                                        </a>
-                                    </div>
+                                <div>    
+                                    <a href="#">
+                                        <img src={Gallery_2} alt="" className="img img-responsive"/>
+                                    </a>
                                 </div>
                                 <div className={this.state.onWebDesign ? "grid active" : "grid"
                                     && this.state.onWebApp ? "grid active" : "grid"
@@ -132,7 +124,7 @@ class Porfolio extends Component {
                                     <img src={Gallery_6} alt="" className="img img-responsive"/>
                                     <div className="icon">
                                         <a href="#" className="view-icon">
-                                            <FontAwesomeIcon icon={faPlus} />
+                                            <FontAwesomeIcon icon={faExternalLinkAlt} />
                                         </a>
                                     </div>
                                 </div>

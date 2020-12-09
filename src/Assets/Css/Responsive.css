@@ -1,4 +1,4 @@
-@media only screen and (min-width: 992px) and (max-width: 1199px) {
+@media only screen and (min-width: 992px) and (max-width: 3499px) {
 
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -54,7 +54,7 @@
         display: none;
     }
     .hero-style-1 .slide {
-        background: url('../Images/slide-2.jpg') 20% center no-repeat;
+        background: url('../Images/BannerImage2.jpg') 20% center no-repeat;
         background-size: cover;
     }
     .header-style-1 .navbar-header button {
@@ -171,7 +171,7 @@
         display: none;
     }
     .hero-style-1 .slide {
-        background: url('../Images/slide-2.jpg') 20% center no-repeat;
+        background: url('../Images/BannerImage2.jpg') 20% center no-repeat;
         background-size: cover;
     }
     .header-style-1 .navbar-header button {
@@ -272,7 +272,7 @@
         display: none;
     }
     .hero-style-1 .slide {
-        background: url('../Images/slide-2.jpg') 20% center no-repeat;
+        background: url('../Images/BannerImage2.jpg') 20% center no-repeat;
         background-size: cover;
     }
     .header-style-1 .navbar-header button {

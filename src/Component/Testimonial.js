@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
 import testimonialImg_1 from '../Assets/Images/Decks.jpeg';
-import testimonialImg_2 from '../Assets/Images/Daniel.png';
+import testimonialImg_2 from '../Assets/Images/DanielLewis.jpg';
 
 class Testimonial extends Component {
     render() {

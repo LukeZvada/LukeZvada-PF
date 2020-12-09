@@ -1045,6 +1045,10 @@ button:focus {
   top: 0;
 }
 
+.hero .slide .slider-image img {
+  width: 100%;
+}
+
 .hero .slide .container {
   height: 100%;
   display: table;
@@ -1615,6 +1619,11 @@ page loader
     width: 50%;
 }
 
+.techPhotos { 
+  display: flex;
+  justify-content: center;
+  margin-left: 136px;
+}
 /*--------------------------------------------------------------
 0.7 protfolio-section
 --------------------------------------------------------------*/
@@ -1702,23 +1711,25 @@ page loader
   align-items: center;
 }
 .gallery-section .grid:before {
-    position: absolute;
-    content: "";
-    left: 30px;
-    right: 30px;
-    top: 15px;
-    bottom: 15px;
-    background: rgba(255,255,255,.5);
-    transition: all .3s;
-    z-index: 9;
-    visibility: hidden;
-    opacity: 0;
-    transform: scale(0);
+  position: absolute;
+  content: "";
+  left: 30px;
+  right: 130px;
+  top: 12px;
+  bottom: 12px;
+  background: rgba(255,255,255,.5);
+  /* background-image: url('./Assets/Images/pilotLogDesign2.png'); */
+  /* background-size: 274px 173px; */
+  transition: all .3s;
+  z-index: 9;
+  visibility: hidden;
+  opacity: 0;
+  transform: scale(0);
 }
 .gallery-section .grid:hover:before {
-    opacity: 1;
-    visibility: visible;
-    transform: scale(1);
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
 }
 
 .gallery-section .item{
@@ -1741,7 +1752,6 @@ page loader
 }
 .gallery-section .grid:hover .icon{
       transform: scale(1);
-
 }
 .icon i{
   font-size: 30px;
@@ -1775,9 +1785,11 @@ page loader
     position: relative;
     border-radius: 50%;
     margin: auto;
-}
-.testimonial-img img{
-  border-radius: 50%;
+  }
+  .testimonial-img img{
+    border-radius: 50%;
+    filter: grayscale(100%);
+    background: black; opacity: 1.2
 }
 .testimonial-item {
     text-align: center;
@@ -2500,9 +2512,10 @@ border-radius: 0px;
   margin-bottom: 30px;
 }
 .tumho-masonary .grid .view-icon {
-  display: inline-block;
-  font-size: 30px;
-  color: #000;
+  display: flex;
+  justify-content: center;
+  font-size: 70px;
+  color: rgb(0, 0, 0);
 }
 
 .tumho-masonary .grid.active, .tumho-masonary .grid.open {
@@ -2512,6 +2525,7 @@ border-radius: 0px;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
+
 }
 
 .p-lightbox-content {
