@@ -51,14 +51,14 @@ class Header extends Component {
                                         {/* <img src={Home_2} alt=""/> */}
                                     </a>
                                 </li>
-                                <li className="service">
-                                    <a href="#service">Technology
-                                        {/* <img src={Home_3} alt=""/> */}
-                                    </a>
-                                </li>
                                 <li className="protfolio">
                                     <a href="#protfolio">Portfolio
                                         {/* <img src={Home_4} alt=""/> */}
+                                    </a>
+                                </li>
+                                <li className="service">
+                                    <a href="#service">Technology
+                                        {/* <img src={Home_3} alt=""/> */}
                                     </a>
                                 </li>
                                 {/* <li className="blog">

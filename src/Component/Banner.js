@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { faFacebook, faAccessibleIcon, faFacebookF, faTwitter, faInstagram, faPinterest, faPinterestP, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faAccessibleIcon, faFacebookF, faTwitter, faInstagram, faPinterest, faPinterestP, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Slides from '../Assets/Images/BannerImage2.jpg';
 
@@ -33,11 +33,11 @@ class Banner extends Component {
                 <div className="social-links">
                     <ul>
                         <li>
-                            <a href="https://www.facebook.com/luke.zvada/">
-                                <FontAwesomeIcon icon={faFacebookF} />
+                            <a href="https://github.com/LukeZvada">
+                                <FontAwesomeIcon icon={faGithub} />
                             </a>
                         </li>
-                        <li>
+                        {/* <li>
                             <a href="https://twitter.com/zvadamusic">
                                 <FontAwesomeIcon icon={faTwitter} />
                             </a>
@@ -46,7 +46,7 @@ class Banner extends Component {
                             <a href="https://www.instagram.com/zvadamusic/">
                                 <FontAwesomeIcon icon={faInstagram} />
                             </a>
-                        </li>
+                        </li> */}
                         <li>
                             <a href="https://www.linkedin.com/in/lukezvada/">
                                 <FontAwesomeIcon icon={faLinkedin} />

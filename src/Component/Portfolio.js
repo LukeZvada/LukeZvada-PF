@@ -112,22 +112,17 @@ class Porfolio extends Component {
                                         </a>
                                     </div>
                                 </div> */}
-                                <div>    
+                                <div className="projects">    
                                     <a href="#">
                                         <img src={Gallery_2} alt="" className="img img-responsive"/>
                                     </a>
                                 </div>
-                                <div className={this.state.onWebDesign ? "grid active" : "grid"
-                                    && this.state.onWebApp ? "grid active" : "grid"
-                                    && this.state.isOpen ? "grid" : "grid open"}>
-                                    
-                                    <img src={Gallery_6} alt="" className="img img-responsive"/>
-                                    <div className="icon">
-                                        <a href="#" className="view-icon">
-                                            <FontAwesomeIcon icon={faExternalLinkAlt} />
-                                        </a>
-                                    </div>
+                                <div className="projects">
+                                    <a href="#">
+                                        <img src={Gallery_6} alt="" className="img img-responsive"/>
+                                    </a>
                                 </div>
+       
                                 {/* <div className={this.state.onPrintDesign ? "grid active" : "grid"
                                     && this.state.onPhotography ? "grid active" : "grid"
                                     && this.state.isOpen ? "grid" : "grid open"}>

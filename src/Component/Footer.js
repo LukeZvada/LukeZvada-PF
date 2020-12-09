@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { fab, faFacebookF, faTwitter, faInstagram, faPinterestP, faYoutube, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { fab, faFacebookF, faTwitter, faInstagram, faPinterestP, faYoutube, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Logo from '../Assets/Images/logo.png';
 
@@ -21,11 +21,11 @@ class Footer extends Component {
                             <div className="footer-menu">
                                 <ul className="d-flex " >
                                     <li>
-                                        <a href="https://www.facebook.com/luke.zvada/">
-                                            <FontAwesomeIcon icon={faFacebookF} />
+                                        <a href="https://github.com/LukeZvada">
+                                            <FontAwesomeIcon icon={faGithub} />
                                         </a>
                                     </li>
-                                    <li>
+                                    {/* <li>
                                         <a href="https://twitter.com/zvadamusic">
                                             <FontAwesomeIcon icon={faTwitter} />
                                         </a>
@@ -34,7 +34,7 @@ class Footer extends Component {
                                         <a href="https://www.instagram.com/zvadamusic/">
                                             <FontAwesomeIcon icon={faInstagram} />
                                         </a>
-                                    </li>
+                                    </li> */}
                                     <li>
                                         <a href="https://www.linkedin.com/in/lukezvada/">
                                             <FontAwesomeIcon icon={faLinkedin} />
