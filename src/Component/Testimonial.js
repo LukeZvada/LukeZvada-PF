@@ -52,7 +52,7 @@ class Testimonial extends Component {
                         <div className="testimonial-wrap">
                             <div className="testimonial-item">
                                 <div className="testimonial-content">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo.</p>
+                                    <p>Over the years, Luke was a great team player and employee to work with. A few things that really stood out about Luke was his accountability, passion, and work ethic. He leads by example and will do whatever it takes to complete the task at hand.</p>
                                 </div>
                                 <div className="testimonial-sub">
                                     <div className="testimonial-img">
@@ -60,7 +60,7 @@ class Testimonial extends Component {
                                     </div>
                                     <div className="testimonial-tumb-content">
                                         <h4>Ben Decker</h4>
-                                        <span>Tour Manager for Jordan Davis</span>
+                                        <span>Tour Manager for David Nail</span>
                                     </div>
                                 </div>
                             </div>
