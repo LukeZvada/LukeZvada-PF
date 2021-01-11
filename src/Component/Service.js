@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import serviceImg_1 from '../Assets/Images/html2.jpg';
 import serviceImg_2 from '../Assets/Images/jslogo.png';
-import serviceImg_3 from '../Assets/Images/css3-square.png';
+import serviceImg_3 from '../Assets/Images/css3.png';
 import serviceImg_4 from '../Assets/Images/react-logo.png';
 import serviceImg_5 from '../Assets/Images/pythonlogo.jpg';
 import serviceImg_6 from '../Assets/Images/Django.png';
@@ -13,6 +13,8 @@ import serviceImg_10 from '../Assets/Images/json.png';
 import serviceImg_11 from '../Assets/Images/npm-logo.png';
 import serviceImg_12 from '../Assets/Images/figma.png';
 import serviceImg_13 from '../Assets/Images/AXDlogo.png';
+import serviceImg_14 from '../Assets/Images/git.png';
+import serviceImg_15 from '../Assets/Images/github-white.png';
 
 class Service extends Component {
     render () {
@@ -190,6 +192,32 @@ class Service extends Component {
                                     </div>
                                     <div className="hx-service-content">
                                         <h3>Adobe XD</h3>
+                                        {/* <p>I am Expert In</p> */}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4 col-sm-6 grid col-12">
+                            <div className="hx-service-item">
+                                <div className="hx-service-single">
+                                    <div className="service-img">
+                                        <img src={serviceImg_14}/>
+                                    </div>
+                                    <div className="hx-service-content">
+                                        <h3>git</h3>
+                                        {/* <p>I am Expert In</p> */}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-4 col-sm-6 grid col-12">
+                            <div className="hx-service-item">
+                                <div className="hx-service-single">
+                                    <div className="service-img">
+                                        <img src={serviceImg_15}/>
+                                    </div>
+                                    <div className="hx-service-content">
+                                        <h3>Github</h3>
                                         {/* <p>I am Expert In</p> */}
                                     </div>
                                 </div>

@@ -164,7 +164,7 @@ button:focus {
 }
 
 .section-padding {
-  padding: 100px 0;
+  /* padding: 100px 0; */
 }
 
 @media (max-width: 991px) {
@@ -199,6 +199,7 @@ button:focus {
 .section-title span {
     color: #ddd;
     margin-bottom: 10px;
+    font-size: 20px;
 }
 
 
@@ -209,7 +210,7 @@ button:focus {
   line-height: 47px;
   font-size: 16px;
   font-size: 1.06667rem;
-  color: #fff;
+  color: black;
   border: 1px solid rgba(102,102,102,.8);
   padding: 0 30px;
   text-transform: uppercase;
@@ -222,6 +223,30 @@ button:focus {
   transition: all 0.3s;
 }
 .theme-btn:hover{
+  background: #333;
+  color:#fff;
+}
+
+.theme-btn-download {
+  font-family: "Oswald", sans-serif;
+  height: 50px;
+  line-height: 47px;
+  font-size: 16px;
+  font-size: 1.06667rem;
+  color: white;
+  border: 1px solid rgba(102,102,102,.8);
+  padding: 0 30px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -ms-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.theme-btn-download:hover{
   background: #333;
   color:#fff;
 }
@@ -614,7 +639,7 @@ button:focus {
     font-size: 24px;
   }
   .site-header #navbar .navbar-nav {
-    margin: 0;
+    margin: 30px;
   }
 }
 
@@ -1151,7 +1176,7 @@ button:focus {
   height: 50px;
   background: rgba(125, 125, 125, 0.4);
   position: absolute;
-  left: 8px;
+  left: 9px;
   top: -70px;
 }
 
@@ -1160,6 +1185,7 @@ button:focus {
   color: #888;
   content: "SOCIAL";
   position: absolute;
+  font-size: 18px;
   left: -28px;
   top: -135px;
   letter-spacing: 5px;
@@ -1194,7 +1220,7 @@ button:focus {
   -animation: kenburn 25s 2s alternate infinite;
 }
 .hero .slide-caption {
-  padding-top: 90px;
+  padding-bottom: 90px;
 }
 
 
@@ -1254,12 +1280,11 @@ button:focus {
 }
 
 .hero-style-1 .slide-subtitle h4{
-  font-size: 18px;
-  font-size: 1.2rem;
+  font-size: 25px;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 8px;
-  color: #fff;
+  color: Black;
   margin: 0;
   position: relative;
 }
@@ -1286,7 +1311,7 @@ button:focus {
     font-weight: bold;
     line-height: 1.2em;
     text-transform: uppercase;
-    color: #fff;
+    color: rgb(48, 47, 47);
     margin-bottom: 30px;
 }
 
@@ -1303,10 +1328,10 @@ button:focus {
     content: "";
     position: absolute;
     right: -60px;
-    top: 9px;
+    top: 15px;
     width: 65px;
     height: 1px;
-    background: #fff;
+    background: black;
     transition: all .3s;
 }
 
@@ -1386,7 +1411,7 @@ button:focus {
   background-color: #333;
 }
 .copy p{
-  color:#ddd; 
+  color:rgb(43, 43, 43); 
 }
 
 
@@ -1485,6 +1510,7 @@ page loader
 .hx-about-style-1 .hx-about-content {
     padding-left: 0px;
     width: 100%;
+    font-size: 20px;
 }
 
 .hx-about-img img {
@@ -1511,7 +1537,7 @@ page loader
     font-weight: 700;
     color: #444;
     padding-bottom: 20px;
-    margin-bottom: 50px;
+    margin-bottom: 13px;
     position: relative;
     margin-top: 15px;
 }
@@ -1627,8 +1653,44 @@ page loader
 /*--------------------------------------------------------------
 0.7 protfolio-section
 --------------------------------------------------------------*/
+#protfolio.gallery-section .container {
+  background-color: #202020;
+  padding-top: 5em;
+  padding-bottom: 4em;
+  -webkit-box-shadow: 0px 0px 25px -6px rgba(58,58,58,1);
+  -moz-box-shadow: 0px 0px 25px -6px rgb(58, 58, 58,1);
+  box-shadow: 0px 0px 25px -6px rgba(58,58,58,1);
+  border-radius: 15px;
+}
+
+div.tumho-masonary.projects-container {
+  display: block;
+}
+
+.portfolio-links {
+  color: white !important;
+  text-decoration: underline;
+  font-size: 19px;
+}
+
+.portfolio-header {
+  letter-spacing: 4px;
+}
+
 .projects {
   margin: 2rem;
+  display: flex;
+  max-width: 30em;
+  margin: 3em auto;
+  margin-top: -20px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.projects .project-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3em;
 }
 
 .gallery-section {
@@ -1649,7 +1711,7 @@ page loader
 
 .gallery-section .gallery-filters {
   text-align: center;
-  margin-bottom: 35px;
+  /* margin-bottom: 35px; */
 }
 
 @media (max-width: 767px) {
@@ -2170,7 +2232,8 @@ page loader
 1.1 contact-area start
 =======================================================*/
 .contact-page-area{
-  padding-top: 94px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   background: #111;
 }
 .contact-page-area .contact-map {
@@ -2194,7 +2257,7 @@ page loader
 .contact-page-item h2 {
     font-size: 30px;
     font-weight: 600;
-    margin-bottom: 30px;
+    /* margin-bottom: 30px; */
     color:#fff;
 }
 
@@ -2230,9 +2293,11 @@ page loader
     color: #fff;
 }
 .contact-page-item p {
-    margin-top: 30px;
+    margin-top: 4px;
     color: #bbb;
     line-height: 30px;
+    font-size: 20px;
+    /* width: 48rem; */
 }
 
 .contact-text .title h2 {
@@ -2590,4 +2655,20 @@ border-radius: 0px;
   width: 100%;
   background: #2a2a2a;
   border: none;
+}
+
+
+.fa-icon {
+  color : black;
+  font-size: 2.5em
+}
+
+.lpz {
+  color: white !important;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.project-info {
+  color: white;
 }

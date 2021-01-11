@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { faFacebook, faAccessibleIcon, faFacebookF, faTwitter, faInstagram, faPinterest, faPinterestP, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import Slides from '../Assets/Images/BannerImage2.jpg';
+import Slides from '../Assets/Images/banner2.jpg';
 
 class Banner extends Component {
     render() {
@@ -34,7 +34,7 @@ class Banner extends Component {
                     <ul>
                         <li>
                             <a href="https://github.com/LukeZvada">
-                                <FontAwesomeIcon icon={faGithub} />
+                                <FontAwesomeIcon className="fa-icon" icon={faGithub} />
                             </a>
                         </li>
                         {/* <li>
@@ -49,7 +49,7 @@ class Banner extends Component {
                         </li> */}
                         <li>
                             <a href="https://www.linkedin.com/in/lukezvada/">
-                                <FontAwesomeIcon icon={faLinkedin} />
+                                <FontAwesomeIcon className="fa-icon" icon={faLinkedin} />
                             </a>
                         </li>
                     </ul>

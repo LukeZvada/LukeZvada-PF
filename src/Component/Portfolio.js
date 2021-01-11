@@ -88,8 +88,7 @@ class Porfolio extends Component {
                         <div className="col col-xs-12 sortable-gallery">
                             <div className="gallery-filters">
                                 <div className="section-title">
-                                    <span>Portfolio</span>
-                                    <h2>Work I Have Done</h2>
+                                    <h2 className="portfolio-header">Projects</h2>
                                 </div>
                                 <ul>
                                     {/* <li><a data-filter="*" href="#" className="current" onClick={allElement}>All</a></li> */}
@@ -99,62 +98,26 @@ class Porfolio extends Component {
                                     {/* <li><a data-filter=".Photography" href="#" onClick={Photography}>Photography</a></li>  */}
                                 </ul>
                             </div>
-                            <div className="gallery-container gallery-fancybox masonry-gallery tumho-masonary">
-                               
-                                {/* <div className={this.state.onPrintDesign ? "grid active" : "grid"
-                                    && this.state.onWebApp ? "grid active" : "grid"
-                                    && this.state.isOpen ? "grid" : "grid open"
-                                    }>
-                                   <img src={Gallery_1} className="img img-responsive" alt="" />
-                                    <div className="icon">
-                                        <a href="#" className="view-icon">
-                                            <FontAwesomeIcon icon={faPlus} />
-                                        </a>
-                                    </div>
-                                </div> */}
-                                <div className="projects">    
-                                    <a href="https://youtu.be/zSTCjRObvec">
+                            <div className="gallery-container projects-container gallery-fancybox masonry-gallery tumho-masonary">
+                                <div className="projects"> 
+                                    <a href="https://github.com/LukeZvada/Capstone-TourVana">
                                         <img src={Gallery_2} alt="" className="img img-responsive"/>
                                     </a>
+                                    <div className="project-info">
+                                        <a className="portfolio-links" href="https://github.com/LukeZvada/Capstone-TourVana">Github</a>
+                                        <a className="portfolio-links" href="https://www.youtube.com/watch?v=zSTCjRObvec&feature=youtu.be">Video Demo</a>
+                                    </div>   
                                 </div>
                                 <div className="projects">
-                                    <a href="#">
+                                    <a href="https://github.com/LukeZvada/PilotLogClient-Capstone">
                                         <img src={Gallery_6} alt="" className="img img-responsive"/>
                                     </a>
-                                </div>
-       
-                                {/* <div className={this.state.onPrintDesign ? "grid active" : "grid"
-                                    && this.state.onPhotography ? "grid active" : "grid"
-                                    && this.state.isOpen ? "grid" : "grid open"}>
-                                    <img src={Gallery_5} alt="" className="img img-responsive"/>
-                                    <div className="icon">
-                                        <a href="#" className="view-icon">
-                                            <FontAwesomeIcon icon={faPlus} />
-                                        </a>
+                                    <div className="project-info">
+                                        <a className="portfolio-links" href="https://github.com/LukeZvada/PilotLogClient-Capstone">Github (front-end) </a>
+                                        <a className="portfolio-links" href="https://github.com/LukeZvada/pilotlogcapstone-server">Github (back-end) </a>
+                                        <a className="portfolio-links" href="https://youtu.be/kj9VKnd_a6M">Video Demo</a>
                                     </div>
                                 </div>
-                                <div className={this.state.onPrintDesign ? "grid active" : "grid"
-                                    && this.state.onPhotography ? "grid active" : "grid"
-                                    && this.state.isOpen ? "grid" : "grid open"}>
-                                    
-                                    <img src={Gallery_3} alt="" className="img img-responsive"/>
-                                    <div className="icon">
-                                        <a href="#" className="view-icon">
-                                            <FontAwesomeIcon icon={faPlus} />
-                                        </a>
-                                    </div>
-                                </div> */}
-                                {/* <div className={this.state.onPrintDesign ? "grid active" : "grid"
-                                    && this.state.onWebApp ? "grid active" : "grid"
-                                    && this.state.onPhotography ? "grid active" : "grid"
-                                    && this.state.isOpen ? "grid" : "grid open"}>
-                                    <img src={Gallery_4} alt="" className="img img-responsive"/>
-                                    <div className="icon">
-                                        <a href="#" className="view-icon">
-                                            <FontAwesomeIcon icon={faPlus} />
-                                        </a>
-                                    </div>
-                                </div> */}
                             </div>
                         </div>
                     </div>
