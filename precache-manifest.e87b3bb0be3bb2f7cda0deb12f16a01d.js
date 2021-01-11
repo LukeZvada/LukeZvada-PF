@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "1c72e01edb60e583a46d430bf4b29b4b",
+    "revision": "2533a8b30a1aafaf47a2a32fa0b202d5",
     "url": "/index.html"
   },
   {
-    "revision": "e9bc4d8e57d0a8ec8ed0",
+    "revision": "e158295d0a045cd33eb9",
     "url": "/static/css/2.47dce79d.chunk.css"
   },
   {
-    "revision": "85f325fa1f988320ae92",
-    "url": "/static/css/main.69e39664.chunk.css"
+    "revision": "539a2095cd3b9be31a9e",
+    "url": "/static/css/main.3ffc5bf3.chunk.css"
   },
   {
-    "revision": "e9bc4d8e57d0a8ec8ed0",
-    "url": "/static/js/2.a94cc1c1.chunk.js"
+    "revision": "e158295d0a045cd33eb9",
+    "url": "/static/js/2.01813ada.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/static/js/2.a94cc1c1.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.01813ada.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "85f325fa1f988320ae92",
-    "url": "/static/js/main.1b57ade7.chunk.js"
+    "revision": "539a2095cd3b9be31a9e",
+    "url": "/static/js/main.7e794720.chunk.js"
   },
   {
     "revision": "7932af8c3f9b7a267f4a",
@@ -32,10 +32,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/AXDlogo.dddf28fe.png"
   },
   {
-    "revision": "90264d25bdc8c70d30073fd73fe3b042",
-    "url": "/static/media/BannerImage2.90264d25.jpg"
-  },
-  {
     "revision": "fc75389206fa60d9c305f967281e229c",
     "url": "/static/media/Decks.fc753892.jpeg"
   },
@@ -44,8 +40,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/Django.8c02a749.png"
   },
   {
-    "revision": "ee4ad5ac70578f2190572d8d13dff2ce",
-    "url": "/static/media/LZ.ee4ad5ac.jpg"
+    "revision": "482fd0db26286af9ba423ad1543a8253",
+    "url": "/static/media/LukeZvadaFUNphoto.482fd0db.JPG"
   },
   {
     "revision": "d2b1e19091a3530dfb8bec06b5a926dc",
@@ -56,12 +52,20 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/SqLite.f697ba0c.png"
   },
   {
+    "revision": "303478731946bc328fd3ea25294d6005",
+    "url": "/static/media/banner2.30347873.jpg"
+  },
+  {
     "revision": "6a62d2b8f0d02cc7e262738f0fe759af",
     "url": "/static/media/bootstrap.6a62d2b8.png"
   },
   {
     "revision": "04debe24811da54a2abddc709d41f5fd",
     "url": "/static/media/figma.04debe24.png"
+  },
+  {
+    "revision": "638666797aadfb690a2c47c61400ced0",
+    "url": "/static/media/github-white.63866679.png"
   },
   {
     "revision": "50a67f1cbe0f46b4cd999a8d083155bc",
