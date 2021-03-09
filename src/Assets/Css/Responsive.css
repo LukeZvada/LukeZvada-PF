@@ -1,10 +1,10 @@
 @media only screen and (min-width: 992px) and (max-width: 3499px) {
 
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-    .hx-about-style-1 .hx-about-img {
+@media only screen and (min-width: 768px) and (max-width: 1292px) {
+    /* .hx-about-style-1 .hx-about-img {
         display: none;
-    }
+    } */
     .hero-style-1 .slide {
         height: auto;
         min-height: auto;
@@ -17,6 +17,13 @@
         padding: 120px 0;
     }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+        .hx-about-style-1 .hx-about-img {
+        display: none;
+    }
+}
+
 @media only screen and (min-width: 576px) and (max-width: 767px) {
     .pricing-area {
         padding: 60px 0 30px;
