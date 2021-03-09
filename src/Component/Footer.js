@@ -45,7 +45,7 @@ class Footer extends Component {
                         </div>
                         <div className="col-12">
                             <div className="footer-sub">
-                                <p><i className="fa fa-copyright"></i>2020<span> Luke Zvada</span></p>
+                                <p><i className="fa fa-copyright"></i>&copy;<span> Luke Zvada</span></p>
                             </div>
                         </div>
                     </div>

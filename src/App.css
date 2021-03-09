@@ -1153,9 +1153,9 @@ button:focus {
 
 .hero .social-links {
     width: auto;
-    position: absolute;
+    position: relative;
     left: 15px;
-    bottom: 15px;
+    bottom: 100px;
 }
 
 @media (max-width: 1300px) {
@@ -1311,7 +1311,7 @@ button:focus {
     font-weight: bold;
     line-height: 1.2em;
     text-transform: uppercase;
-    color: rgb(48, 47, 47);
+    color: rgb(0, 0, 0);
     margin-bottom: 30px;
 }
 
