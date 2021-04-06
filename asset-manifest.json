@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.16ef97b1.chunk.css",
-    "main.js": "/static/js/main.fd1ac0c5.chunk.js",
-    "main.js.map": "/static/js/main.fd1ac0c5.chunk.js.map",
+    "main.css": "/static/css/main.a55735b0.chunk.css",
+    "main.js": "/static/js/main.a175f581.chunk.js",
+    "main.js.map": "/static/js/main.a175f581.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.fd24249f.js",
     "runtime-main.js.map": "/static/js/runtime-main.fd24249f.js.map",
     "static/css/2.47dce79d.chunk.css": "/static/css/2.47dce79d.chunk.css",
     "static/js/2.01813ada.chunk.js": "/static/js/2.01813ada.chunk.js",
     "static/js/2.01813ada.chunk.js.map": "/static/js/2.01813ada.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.8b8520007d189651247137df348b9ce0.js": "/precache-manifest.8b8520007d189651247137df348b9ce0.js",
+    "precache-manifest.911ed14f24c17d3505b2f09976202ead.js": "/precache-manifest.911ed14f24c17d3505b2f09976202ead.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.47dce79d.chunk.css.map": "/static/css/2.47dce79d.chunk.css.map",
-    "static/css/main.16ef97b1.chunk.css.map": "/static/css/main.16ef97b1.chunk.css.map",
+    "static/css/main.a55735b0.chunk.css.map": "/static/css/main.a55735b0.chunk.css.map",
     "static/js/2.01813ada.chunk.js.LICENSE.txt": "/static/js/2.01813ada.chunk.js.LICENSE.txt",
     "static/media/AXDlogo.png": "/static/media/AXDlogo.dddf28fe.png",
     "static/media/Decks.jpeg": "/static/media/Decks.fc753892.jpeg",
@@ -34,7 +34,7 @@
     "static/js/runtime-main.fd24249f.js",
     "static/css/2.47dce79d.chunk.css",
     "static/js/2.01813ada.chunk.js",
-    "static/css/main.16ef97b1.chunk.css",
-    "static/js/main.fd1ac0c5.chunk.js"
+    "static/css/main.a55735b0.chunk.css",
+    "static/js/main.a175f581.chunk.js"
   ]
 }
