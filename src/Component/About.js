@@ -15,7 +15,7 @@ class About extends Component {
                                 </div>
                                 <p>Previously working in the music industry as a tour manager, I learned how to solve issues on the go, organize a complicated schedule, and manage team morale. Through that hard work, I have found a new passion for software development. I attended Nashville Software School that allowed me to take that new passion and turn it into reality. Having strong attributes such as problem solving, dependability, and efficiency, I have embraced this new opportunity in tech and continue to learn and grow as a software developer every day.</p>                                
                                 <div className="btns">
-                                    <a href="https://drive.google.com/file/d/1ifOw3l4yafqhqOifmcFjvidutyyCcD4m/view?usp=sharing" className="theme-btn-download">Download Resume PDF</a>
+                                    <a href="https://drive.google.com/file/d/1RXxTNPNV98N-UzabunCAujf_a-OKfaGC/view?usp=sharing" className="theme-btn-download">Download Resume PDF</a>
                                 </div>
                             </div>
                         </div>

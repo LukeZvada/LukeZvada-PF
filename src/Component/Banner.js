@@ -19,7 +19,7 @@ class Banner extends Component {
                                         <h4>Luke Zvada</h4>
                                     </div>
                                     <div className="slide-title">
-                                        <h2>Software Developer</h2>
+                                        <h2>UI/UX Designer | Developer</h2>
                                     </div>
                                     <div className="btns">
                                         <a href="#contact" className="theme-btn go-contact-area">Contact Me</a>
