@@ -52,7 +52,7 @@ class Header extends Component {
                                     </a>
                                 </li>
                                 <li className="protfolio">
-                                    <a href="#protfolio">Portfolio
+                                    <a href="#portfolio">Projects
                                         {/* <img src={Home_4} alt=""/> */}
                                     </a>
                                 </li>

@@ -104,10 +104,10 @@ class Porfolio extends Component {
                                         <img src={Gallery_2} alt="" className="img img-responsive"/>
                                     </a>
                                     <div className="project-info">
-                                        <a className="portfolio-links" href="https://github.com/LukeZvada/Capstone-TourVana">Github</a>
-                                        <a className="portfolio-links" href="https://www.youtube.com/watch?v=zSTCjRObvec&feature=youtu.be">Video Demo</a>
-                                        <a className="portfolio-links" href="https://www.figma.com/file/nLx7IsuSMZkkc4arEMn3R0/Capstone-Iphone?node-id=0%3A1">Wireframe</a>
-                                        <a className="portfolio-links" href="#">Case Study (Coming Soon)</a>
+                                        <a className="portfolio-links" target="_blank" href="https://github.com/LukeZvada/Capstone-TourVana">Github</a>
+                                        <a className="portfolio-links" target="_blank" href="https://www.youtube.com/watch?v=zSTCjRObvec&feature=youtu.be">Video Demo</a>
+                                        <a className="portfolio-links" target="_blank" href="https://www.figma.com/file/nLx7IsuSMZkkc4arEMn3R0/Capstone-Iphone?node-id=0%3A1">Wireframe</a>
+                                        <a className="portfolio-links" target="_blank" href="#">Case Study (Coming Soon)</a>
                                     </div>   
                                 </div>
                                 <div className="projects">
@@ -115,11 +115,11 @@ class Porfolio extends Component {
                                         <img src={Gallery_6} alt="" className="img img-responsive"/>
                                     </a>
                                     <div className="project-info">
-                                        <a className="portfolio-links" href="https://github.com/LukeZvada/PilotLogClient-Capstone">Github (front-end) </a>
-                                        <a className="portfolio-links" href="https://github.com/LukeZvada/pilotlogcapstone-server">Github (back-end) </a>
-                                        <a className="portfolio-links" href="https://youtu.be/kj9VKnd_a6M">Video Demo</a>
-                                        <a className="portfolio-links" href="https://www.figma.com/file/Aoq9VxLZLXzrAQ7fh8yGVM/Final-Capstone-Pilot-Log?node-id=0%3A1">Wireframe</a>
-                                        <a className="portfolio-links" href="#">Case Study (Coming Soon)</a>
+                                        <a className="portfolio-links" target="_blank" href="https://github.com/LukeZvada/PilotLogClient-Capstone">Github (front-end) </a>
+                                        <a className="portfolio-links" target="_blank" href="https://github.com/LukeZvada/pilotlogcapstone-server">Github (back-end) </a>
+                                        <a className="portfolio-links" target="_blank" href="https://youtu.be/kj9VKnd_a6M">Video Demo</a>
+                                        <a className="portfolio-links" target="_blank" href="https://www.figma.com/file/Aoq9VxLZLXzrAQ7fh8yGVM/Final-Capstone-Pilot-Log?node-id=0%3A1">Wireframe</a>
+                                        <a className="portfolio-links" target="_blank" href="#">Case Study (Coming Soon)</a>
                                     </div>
                                 </div>
                             </div>

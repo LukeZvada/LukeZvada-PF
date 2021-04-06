@@ -996,7 +996,7 @@ button:focus {
   content: "Technology";
 }
 .header-style-1 .protfolio a:after{
-  content: "Protfolio";
+  content: "Projects";
 }
 .header-style-1 .contact a:after{
   content: "contact";
@@ -1680,7 +1680,7 @@ div.tumho-masonary.projects-container {
 .projects {
   margin: 2rem;
   display: flex;
-  max-width: 30em;
+  max-width: 33em;
   margin: 3em auto;
   margin-top: -20px;
   flex-direction: row;
